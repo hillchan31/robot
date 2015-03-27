@@ -152,6 +152,43 @@ class SeverityConf {
                 ),
             ),
         ),
+        /**
+         * 搜狐手机版
+         */
+        'sohu_m' =>
+        array(
+            'url' => 'http://m.sohu.com/?v=2',
+            'baseurl' => 'http://m.sohu.com',
+            'run' => 1,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '[class="w1"]',
+                    'atagInclude' => 'p',
+                    'score' => '1st',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="ls"]',
+                    'atagInclude' => 'p',
+                    'score' => '1st',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="ls ls1"]',
+                    'atagInclude' => 'p',
+                    'score' => '1st',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="ls pb1"]',
+                    'atagInclude' => 'p',
+                    'score' => '1st',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+            //end
     );
 
 }
