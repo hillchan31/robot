@@ -3,7 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/D:/xampp/htdocs/robot/lib/LIB_parse.php</file>
+            <file>file:/D:/xampp/htdocs/robot/crawl.php</file>
+            <file>file:/D:/xampp/htdocs/robot/lib/phpQuery.php</file>
             <file>file:/D:/xampp/htdocs/robot/index.php</file>
+            <file>file:/D:/xampp/htdocs/robot/conf/SeverityConf.php</file>
         </group>
     </open-files>
 </project-private>

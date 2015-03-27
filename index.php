@@ -4,8 +4,10 @@ require_once './lib/LIB_http.php';
 require_once './lib/LIB_parse.php';
 require_once './lib/phpQuery.php';
 
+phpQuery::$debug = TRUE;
+phpQuery::newDocumentFile("http://3g.ifeng.com/");
 
-phpQuery::newDocumentFile("http://news.163.com");
+
 
 $htmlpiece = pq('.ns-wnews.mb30>h4')->html() . pq('.ns-wnews.mb40>h4')->html();
 $urls = parse_array($htmlpiece, "<a", "</a>");
