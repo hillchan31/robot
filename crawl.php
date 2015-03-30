@@ -38,7 +38,7 @@ foreach (SeverityConf::$pages as $key => $value) {
 
             foreach ($nodes as $node) {
 //            echo iconv('gbk', 'UTF-8', $node) . "\n";
-//                echo $node;
+//                echo $node . "\n";
 
                 /**
                  * 解析a标签

@@ -15,13 +15,13 @@ class SeverityConf {
      */
     static $pages = array(
         /**
-         * 网易手机版
+         * 网易新闻手机版
          */
         'netease_mobile' =>
         array(
             'url' => 'http://news.163.com/mobile',
             'baseurl' => 'http://news.163.com/mobile',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
@@ -39,13 +39,31 @@ class SeverityConf {
             ),
         ),
         /**
+         * 手机网易简版
+         */
+        'netease_mobile' =>
+        array(
+            'url' => 'http://3g.163.com/touch',
+            'baseurl' => 'http://3g.163.com/touch',
+            'run' => 1,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => 'ul>li',
+                    'atagInclude' => 'li',
+                    'score' => '1st',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
          * 凤凰网手机彩版
          */
         'ifeng_3g' =>
         array(
             'url' => 'http://3g.ifeng.com',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
@@ -63,7 +81,7 @@ class SeverityConf {
         array(
             'url' => 'http://3g.ifeng.com/news/newsi',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
@@ -81,7 +99,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/0/index_3.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
@@ -123,7 +141,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/52/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
@@ -183,6 +201,36 @@ class SeverityConf {
                 array(
                     'cssSelector' => '[class="ls pb1"]',
                     'atagInclude' => 'p',
+                    'score' => '1st',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * QQ手机普通版
+         */
+        'qq_m' =>
+        array(
+            'url' => 'http://xw.qq.com/simple/s/index',
+            'baseurl' => 'http://xw.qq.com',
+            'run' => 1,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.topnews',
+                    'atagInclude' => 'h1',
+                    'score' => '1st',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '.topnews',
+                    'atagInclude' => 'li',
+                    'score' => '1st',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '.pubbox',
+                    'atagInclude' => 'li',
                     'score' => '1st',
                     'commentTag' => '',
                 ),
