@@ -21,7 +21,7 @@ class SeverityConf {
         array(
             'url' => 'http://news.163.com/mobile',
             'baseurl' => 'http://news.163.com/mobile',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -45,7 +45,7 @@ class SeverityConf {
         array(
             'url' => 'http://3g.163.com/touch',
             'baseurl' => 'http://3g.163.com/touch',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -63,7 +63,7 @@ class SeverityConf {
         array(
             'url' => 'http://3g.ifeng.com',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -81,7 +81,7 @@ class SeverityConf {
         array(
             'url' => 'http://3g.ifeng.com/news/newsi',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -99,7 +99,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/0/index_3.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -141,7 +141,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/52/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -177,7 +177,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.sohu.com/?v=2',
             'baseurl' => 'http://m.sohu.com',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -213,7 +213,7 @@ class SeverityConf {
         array(
             'url' => 'http://xw.qq.com/simple/s/index',
             'baseurl' => 'http://xw.qq.com',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -236,7 +236,332 @@ class SeverityConf {
                 ),
             ),
         ),
-            //end
+//        以下是二类
+        /**
+         * ifeng娱乐
+         */
+        'ifeng_enti' =>
+        array(
+            'url' => 'http://i.ifeng.com/ent/enti',
+            'baseurl' => 'http://3g.ifeng.com',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.nlistcb',
+                    'atagInclude' => 'li',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * ifeng军事
+         */
+        'ifeng_mili' =>
+        array(
+            'url' => 'http://i.ifeng.com/mil/mili',
+            'baseurl' => 'http://3g.ifeng.com',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.nlistcb',
+                    'atagInclude' => 'li',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * ifeng财经
+         */
+        'ifeng_finance' =>
+        array(
+            'url' => 'http://3g.ifeng.com/finance/financei',
+            'baseurl' => 'http://3g.ifeng.com',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.nlistcb',
+                    'atagInclude' => 'li',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * ifeng体育
+         */
+        'ifeng_sport' =>
+        array(
+            'url' => 'http://i.ifeng.com/sports/sportsi',
+            'baseurl' => 'http://3g.ifeng.com',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.nlistcb',
+                    'atagInclude' => 'li',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * ifeng社会
+         */
+        'ifeng_social' =>
+        array(
+            'url' => 'http://i.ifeng.com/news/society/shi',
+            'baseurl' => 'http://3g.ifeng.com',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.nlistcb',
+                    'atagInclude' => 'li',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * ifeng科技
+         */
+        'ifeng_tech' =>
+        array(
+            'url' => 'http://i.ifeng.com/tech/techi',
+            'baseurl' => 'http://3g.ifeng.com',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.nlistcb',
+                    'atagInclude' => 'li',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * ifeng汽车
+         */
+        'ifeng_car' =>
+        array(
+            'url' => 'http://i.ifeng.com/auto/autoi',
+            'baseurl' => 'http://3g.ifeng.com',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.nlistcb',
+                    'atagInclude' => 'li',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * 人民网娱乐
+         */
+        'people_ent' =>
+        array(
+            'url' => 'http://m.people.cn/32/index.html',
+            'baseurl' => 'http://m.people.cn',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.pd_focus',
+                    'atagInclude' => 'h1',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '#box',
+                    'atagInclude' => 'div',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="channl_con pd_title mt20 clear"]',
+                    'atagInclude' => 'li',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * 人民网教育
+         */
+        'people_edu' =>
+        array(
+            'url' => 'http://m.people.cn/645/index.html',
+            'baseurl' => 'http://m.people.cn',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.pd_focus',
+                    'atagInclude' => 'h1',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '.pd_focus>p',
+                    'atagInclude' => 'p',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '#box',
+                    'atagInclude' => 'div',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="channl_con pd_title mt20 clear"]',
+                    'atagInclude' => 'li',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * 人民网社会
+         */
+        'people_social' =>
+        array(
+            'url' => 'http://m.people.cn/30/index.html',
+            'baseurl' => 'http://m.people.cn',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.pd_focus',
+                    'atagInclude' => 'h1',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '#box',
+                    'atagInclude' => 'div',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="channl_con pd_title mt20 clear"]',
+                    'atagInclude' => 'li',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * 人民网时尚
+         */
+        'people_fashion' =>
+        array(
+            'url' => 'http://m.people.cn/30/index.html',
+            'baseurl' => 'http://m.people.cn',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.pd_focus',
+                    'atagInclude' => 'h1',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '#box',
+                    'atagInclude' => 'div',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="channl_con pd_title mt20 clear"]',
+                    'atagInclude' => 'li',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * 人民网科技
+         */
+        'people_tech' =>
+        array(
+            'url' => 'http://m.people.cn/28/index.html',
+            'baseurl' => 'http://m.people.cn',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.pd_focus',
+                    'atagInclude' => 'h1',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '#box',
+                    'atagInclude' => 'div',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="img_b o_h clear"]',
+                    'atagInclude' => 'div',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="channl_con pd_title mt20 clear"]',
+                    'atagInclude' => 'li',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * 人民网军事
+         */
+        'people_mili' =>
+        array(
+            'url' => 'http://m.people.cn/24/index.html',
+            'baseurl' => 'http://m.people.cn',
+            'run' => 1,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.pd_focus',
+                    'atagInclude' => 'h1',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '#box',
+                    'atagInclude' => 'div',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="img_b o_h clear"]',
+                    'atagInclude' => 'div',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="channl_con pd_title mt20 clear"]',
+                    'atagInclude' => 'li',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+//        end
     );
 
 }
