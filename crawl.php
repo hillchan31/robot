@@ -17,7 +17,10 @@ foreach (SeverityConf::$pages as $key => $value) {
 //        phpQuery::$debug = TRUE;
         $pq = phpQuery::newDocumentFile($value['url']);
 //        var_dump($pq);
-//        echo $pq->html();
+        echo $pq->html();
+//        $res = http_get($value['url'], "");
+//        var_dump($res['FILE']);
+//        $pq = phpQuery::newDocumentXHTML(tidy($res['FILE']));
 
         foreach ($value['rules'] as $rule) {
             /**
@@ -50,7 +53,7 @@ foreach (SeverityConf::$pages as $key => $value) {
                     $total++;
                     $saveString = '';
 //                echo iconv('gbk', 'UTF-8', $atag) . "\n";
-//                    echo $atag . "\n";
+                    echo $atag . "\n";
 
                     /**
                      * 取url

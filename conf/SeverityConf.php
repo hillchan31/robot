@@ -532,12 +532,18 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/24/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '.pd_focus',
                     'atagInclude' => 'h1',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '.pd_focus>p',
+                    'atagInclude' => 'p',
                     'score' => '2nd',
                     'commentTag' => '',
                 ),
@@ -548,7 +554,37 @@ class SeverityConf {
                     'commentTag' => '',
                 ),
                 array(
-                    'cssSelector' => '[class="img_b o_h clear"]',
+                    'cssSelector' => '[class="channl_con pd_title mt20 clear"]',
+                    'atagInclude' => 'li',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * 人民网体育
+         */
+        'people_sport' =>
+        array(
+            'url' => 'http://m.people.cn/35/index.html',
+            'baseurl' => 'http://m.people.cn',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.pd_focus',
+                    'atagInclude' => 'h1',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '.pd_focus>p',
+                    'atagInclude' => 'p',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '#box',
                     'atagInclude' => 'div',
                     'score' => '2nd',
                     'commentTag' => '',
@@ -556,6 +592,234 @@ class SeverityConf {
                 array(
                     'cssSelector' => '[class="channl_con pd_title mt20 clear"]',
                     'atagInclude' => 'li',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * 人民网财经
+         */
+        'people_finance' =>
+        array(
+            'url' => 'http://m.people.cn/26/index.html',
+            'baseurl' => 'http://m.people.cn',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.pd_focus',
+                    'atagInclude' => 'h1',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '.pd_focus>p',
+                    'atagInclude' => 'p',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '#box',
+                    'atagInclude' => 'div',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="channl_con pd_title mt20 clear"]',
+                    'atagInclude' => 'li',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * 搜狐新闻
+         */
+        'sohu_news' =>
+        array(
+            'url' => 'http://m.sohu.com/c/2/',
+            'baseurl' => 'http://m.sohu.com',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '[class="w1"]',
+                    'atagInclude' => 'p',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="hn hn1"]',
+                    'atagInclude' => 'p',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="ls"]',
+                    'atagInclude' => 'p',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * 搜狐社会
+         */
+        'sohu_social' =>
+        array(
+            'url' => 'http://m.sohu.com/c/53/',
+            'baseurl' => 'http://m.sohu.com',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '[class="ls pb1"]',
+                    'atagInclude' => 'p',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="ls"]',
+                    'atagInclude' => 'p',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * 搜狐军事
+         */
+        'sohu_mili' =>
+        array(
+            'url' => 'http://m.sohu.com/c/8/',
+            'baseurl' => 'http://m.sohu.com',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '[class="ls pb1"]',
+                    'atagInclude' => 'p',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="ls"]',
+                    'atagInclude' => 'p',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * 搜狐体育
+         */
+        'sohu_sport' =>
+        array(
+            'url' => 'http://m.sohu.com/c/3/',
+            'baseurl' => 'http://m.sohu.com',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '[class="w1"]',
+                    'atagInclude' => 'p',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="ls"]',
+                    'atagInclude' => 'p',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * 搜狐娱乐
+         */
+        'sohu_ent' =>
+        array(
+            'url' => 'http://m.sohu.com/c/4/',
+            'baseurl' => 'http://m.sohu.com',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '[class="w1"]',
+                    'atagInclude' => 'p',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="w a3"]',
+                    'atagInclude' => 'p',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="ls"]',
+                    'atagInclude' => 'p',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * 搜狐财经
+         */
+        'sohu_finance' =>
+        array(
+            'url' => 'http://m.sohu.com/c/5/',
+            'baseurl' => 'http://m.sohu.com',
+            'run' => 0,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '[class="w1"]',
+                    'atagInclude' => 'p',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="w a3"]>p',
+                    'atagInclude' => 'p',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="ls"]',
+                    'atagInclude' => 'p',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * 网易娱乐
+         */
+        'netease_ent' =>
+        array(
+            'url' => 'http://3g.163.com/touch/ent',
+            'baseurl' => 'http://3g.163.com/ent',
+            'run' => 1,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => 'ul>li',
+                    'atagInclude' => 'li',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="w a3"]>p',
+                    'atagInclude' => 'p',
+                    'score' => '2nd',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="ls"]',
+                    'atagInclude' => 'p',
                     'score' => '2nd',
                     'commentTag' => '',
                 ),
