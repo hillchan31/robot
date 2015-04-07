@@ -21,7 +21,7 @@ class SeverityConf {
         array(
             'url' => 'http://news.163.com/mobile',
             'baseurl' => 'http://news.163.com/mobile',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
@@ -45,13 +45,13 @@ class SeverityConf {
         array(
             'url' => 'http://3g.163.com/touch',
             'baseurl' => 'http://3g.163.com/touch',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => 'ul>li',
                     'atagInclude' => 'li',
-                    'score' => '1st',
+                    'score' => '10',
                     'commentTag' => '',
                 ),
             ),
@@ -63,13 +63,13 @@ class SeverityConf {
         array(
             'url' => 'http://3g.ifeng.com',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '.listcb',
                     'atagInclude' => 'li',
-                    'score' => '1st',
+                    'score' => '10',
                     'commentTag' => '',
                 ),
             ),
@@ -81,13 +81,13 @@ class SeverityConf {
         array(
             'url' => 'http://3g.ifeng.com/news/newsi',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '.listcb',
                     'atagInclude' => 'li',
-                    'score' => '1st',
+                    'score' => '10',
                     'commentTag' => '',
                 ),
             ),
@@ -99,37 +99,37 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/0/index_3.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '#area_1',
                     'atagInclude' => 'div',
-                    'score' => '1st',
+                    'score' => '10',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '#area_2',
                     'atagInclude' => 'div',
-                    'score' => '1st',
+                    'score' => '10',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '#area_3',
                     'atagInclude' => 'div',
-                    'score' => '1st',
+                    'score' => '10',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="list_a list_c list_d"]',
                     'atagInclude' => 'li',
-                    'score' => '1st',
+                    'score' => '10',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => 'div[class!="nav o_h"]>ul>li',
                     'atagInclude' => 'li',
-                    'score' => '1st',
+                    'score' => '10',
                     'commentTag' => '',
                 ),
             ),
@@ -141,31 +141,31 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/52/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '[class="pd_focus"]>h1',
                     'atagInclude' => 'h1',
-                    'score' => '1st',
+                    'score' => '10',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="item"]',
                     'atagInclude' => 'div',
-                    'score' => '1st',
+                    'score' => '10',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="list_c list_d"]>li',
                     'atagInclude' => 'li',
-                    'score' => '1st',
+                    'score' => '10',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="img_b o_h clear"]>ul>li',
                     'atagInclude' => 'li',
-                    'score' => '1st',
+                    'score' => '10',
                     'commentTag' => '',
                 ),
             ),
@@ -177,31 +177,31 @@ class SeverityConf {
         array(
             'url' => 'http://m.sohu.com/?v=2',
             'baseurl' => 'http://m.sohu.com',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '[class="w1"]',
                     'atagInclude' => 'p',
-                    'score' => '1st',
+                    'score' => '10',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="ls"]',
                     'atagInclude' => 'p',
-                    'score' => '1st',
+                    'score' => '10',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="ls ls1"]',
                     'atagInclude' => 'p',
-                    'score' => '1st',
+                    'score' => '10',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="ls pb1"]',
                     'atagInclude' => 'p',
-                    'score' => '1st',
+                    'score' => '10',
                     'commentTag' => '',
                 ),
             ),
@@ -213,25 +213,25 @@ class SeverityConf {
         array(
             'url' => 'http://xw.qq.com/simple/s/index',
             'baseurl' => 'http://xw.qq.com',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '.topnews',
                     'atagInclude' => 'h1',
-                    'score' => '1st',
+                    'score' => '10',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '.topnews',
                     'atagInclude' => 'li',
-                    'score' => '1st',
+                    'score' => '10',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '.pubbox',
                     'atagInclude' => 'li',
-                    'score' => '1st',
+                    'score' => '10',
                     'commentTag' => '',
                 ),
             ),
@@ -244,13 +244,13 @@ class SeverityConf {
         array(
             'url' => 'http://i.ifeng.com/ent/enti',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '.nlistcb',
                     'atagInclude' => 'li',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -262,13 +262,13 @@ class SeverityConf {
         array(
             'url' => 'http://i.ifeng.com/mil/mili',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '.nlistcb',
                     'atagInclude' => 'li',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -280,13 +280,13 @@ class SeverityConf {
         array(
             'url' => 'http://3g.ifeng.com/finance/financei',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '.nlistcb',
                     'atagInclude' => 'li',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -298,13 +298,13 @@ class SeverityConf {
         array(
             'url' => 'http://i.ifeng.com/sports/sportsi',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '.nlistcb',
                     'atagInclude' => 'li',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -316,13 +316,13 @@ class SeverityConf {
         array(
             'url' => 'http://i.ifeng.com/news/society/shi',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '.nlistcb',
                     'atagInclude' => 'li',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -334,13 +334,13 @@ class SeverityConf {
         array(
             'url' => 'http://i.ifeng.com/tech/techi',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '.nlistcb',
                     'atagInclude' => 'li',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -352,13 +352,13 @@ class SeverityConf {
         array(
             'url' => 'http://i.ifeng.com/auto/autoi',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '.nlistcb',
                     'atagInclude' => 'li',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -370,25 +370,25 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/32/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '.pd_focus',
                     'atagInclude' => 'h1',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '#box',
                     'atagInclude' => 'div',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="channl_con pd_title mt20 clear"]',
                     'atagInclude' => 'li',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -400,31 +400,31 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/645/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '.pd_focus',
                     'atagInclude' => 'h1',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '.pd_focus>p',
                     'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '#box',
                     'atagInclude' => 'div',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="channl_con pd_title mt20 clear"]',
                     'atagInclude' => 'li',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -436,25 +436,25 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/30/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '.pd_focus',
                     'atagInclude' => 'h1',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '#box',
                     'atagInclude' => 'div',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="channl_con pd_title mt20 clear"]',
                     'atagInclude' => 'li',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -466,25 +466,25 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/30/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '.pd_focus',
                     'atagInclude' => 'h1',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '#box',
                     'atagInclude' => 'div',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="channl_con pd_title mt20 clear"]',
                     'atagInclude' => 'li',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -496,31 +496,31 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/28/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '.pd_focus',
                     'atagInclude' => 'h1',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '#box',
                     'atagInclude' => 'div',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="img_b o_h clear"]',
                     'atagInclude' => 'div',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="channl_con pd_title mt20 clear"]',
                     'atagInclude' => 'li',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -532,31 +532,31 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/24/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '.pd_focus',
                     'atagInclude' => 'h1',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '.pd_focus>p',
                     'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '#box',
                     'atagInclude' => 'div',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="channl_con pd_title mt20 clear"]',
                     'atagInclude' => 'li',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -568,31 +568,31 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/35/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '.pd_focus',
                     'atagInclude' => 'h1',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '.pd_focus>p',
                     'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '#box',
                     'atagInclude' => 'div',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="channl_con pd_title mt20 clear"]',
                     'atagInclude' => 'li',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -604,31 +604,31 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/26/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '.pd_focus',
                     'atagInclude' => 'h1',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '.pd_focus>p',
                     'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '#box',
                     'atagInclude' => 'div',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="channl_con pd_title mt20 clear"]',
                     'atagInclude' => 'li',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -640,25 +640,25 @@ class SeverityConf {
         array(
             'url' => 'http://m.sohu.com/c/2/',
             'baseurl' => 'http://m.sohu.com',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '[class="w1"]',
                     'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="hn hn1"]',
                     'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="ls"]',
                     'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -670,19 +670,19 @@ class SeverityConf {
         array(
             'url' => 'http://m.sohu.com/c/53/',
             'baseurl' => 'http://m.sohu.com',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '[class="ls pb1"]',
                     'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="ls"]',
                     'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -694,19 +694,19 @@ class SeverityConf {
         array(
             'url' => 'http://m.sohu.com/c/8/',
             'baseurl' => 'http://m.sohu.com',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '[class="ls pb1"]',
                     'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="ls"]',
                     'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -718,19 +718,19 @@ class SeverityConf {
         array(
             'url' => 'http://m.sohu.com/c/3/',
             'baseurl' => 'http://m.sohu.com',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '[class="w1"]',
                     'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="ls"]',
                     'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -742,25 +742,25 @@ class SeverityConf {
         array(
             'url' => 'http://m.sohu.com/c/4/',
             'baseurl' => 'http://m.sohu.com',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '[class="w1"]',
                     'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="w a3"]',
                     'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="ls"]',
                     'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -772,25 +772,25 @@ class SeverityConf {
         array(
             'url' => 'http://m.sohu.com/c/5/',
             'baseurl' => 'http://m.sohu.com',
-            'run' => 0,
+            'run' => 1,
             'rules' =>
             array(
                 array(
                     'cssSelector' => '[class="w1"]',
                     'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="w a3"]>p',
                     'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
                     'cssSelector' => '[class="ls"]',
                     'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
@@ -801,26 +801,188 @@ class SeverityConf {
         'netease_ent' =>
         array(
             'url' => 'http://3g.163.com/touch/ent',
-            'baseurl' => 'http://3g.163.com/ent',
+            'baseurl' => 'http://3g.163.com/touch/ent',
             'run' => 1,
             'rules' =>
             array(
                 array(
-                    'cssSelector' => 'ul>li',
+                    'cssSelector' => '#newsListContent>li',
                     'atagInclude' => 'li',
-                    'score' => '2nd',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
-                    'cssSelector' => '[class="w a3"]>p',
-                    'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'cssSelector' => '[class="newsPage"]>li',
+                    'atagInclude' => 'li',
+                    'score' => '7',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * 网易体育
+         */
+        'netease_sport' =>
+        array(
+            'url' => 'http://3g.163.com/touch/sports/',
+            'baseurl' => 'http://3g.163.com/touch/sports',
+            'run' => 1,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '#newsListContent>li',
+                    'atagInclude' => 'li',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
                 array(
-                    'cssSelector' => '[class="ls"]',
-                    'atagInclude' => 'p',
-                    'score' => '2nd',
+                    'cssSelector' => '[class="newsPage"]>li',
+                    'atagInclude' => 'li',
+                    'score' => '7',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * 网易军事
+         */
+        'netease_mil' =>
+        array(
+            'url' => 'http://3g.163.com/touch/mil',
+            'baseurl' => 'http://3g.163.com/touch/mil',
+            'run' => 1,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '#newsListContent>li',
+                    'atagInclude' => 'li',
+                    'score' => '7',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="newsPage"]>li',
+                    'atagInclude' => 'li',
+                    'score' => '7',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * 网易科技
+         */
+        'netease_tech' =>
+        array(
+            'url' => 'http://3g.163.com/touch/tech/',
+            'baseurl' => 'http://3g.163.com/touch/tech',
+            'run' => 1,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '#newsListContent>li',
+                    'atagInclude' => 'li',
+                    'score' => '7',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="newsPage"]>li',
+                    'atagInclude' => 'li',
+                    'score' => '7',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * 网易财经
+         */
+        'netease_finance' =>
+        array(
+            'url' => 'http://3g.163.com/touch/money/',
+            'baseurl' => 'http://3g.163.com/touch/money',
+            'run' => 1,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '#newsListContent>li',
+                    'atagInclude' => 'li',
+                    'score' => '7',
+                    'commentTag' => '',
+                ),
+                array(
+                    'cssSelector' => '[class="newsPage"]>li',
+                    'atagInclude' => 'li',
+                    'score' => '7',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * qq财经
+         */
+        'qq_finance' =>
+        array(
+            'url' => 'http://xw.qq.com/m/finance/',
+            'baseurl' => 'http://xw.qq.com',
+            'run' => 1,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.list',
+                    'atagInclude' => 'li',
+                    'score' => '7',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * qq体育
+         */
+        'qq_sport' =>
+        array(
+            'url' => 'http://xw.qq.com/m/sports/',
+            'baseurl' => 'http://xw.qq.com',
+            'run' => 1,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.list',
+                    'atagInclude' => 'li',
+                    'score' => '7',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * qq娱乐
+         */
+        'qq_ent' =>
+        array(
+            'url' => 'http://xw.qq.com/m/ent/',
+            'baseurl' => 'http://xw.qq.com',
+            'run' => 1,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.list',
+                    'atagInclude' => 'li',
+                    'score' => '7',
+                    'commentTag' => '',
+                ),
+            ),
+        ),
+        /**
+         * qq科技
+         */
+        'qq_tech' =>
+        array(
+            'url' => 'http://xw.qq.com/m/tech/',
+            'baseurl' => 'http://xw.qq.com',
+            'run' => 1,
+            'rules' =>
+            array(
+                array(
+                    'cssSelector' => '.list',
+                    'atagInclude' => 'li',
+                    'score' => '7',
                     'commentTag' => '',
                 ),
             ),
