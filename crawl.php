@@ -93,13 +93,20 @@ function main() {
 
                         if (count($res)) {
                             if ($rule['score'] > $res[0]['loc']) {
-                                $db->update('urlloc', array('loc' => $rule['score'], 'mtime' => date('Y-m-d H:i:s', time())), array('url' => $href));
+                                $db->update('urlloc', array(
+                                    'loc' => $rule['score'],
+                                    'mtime' => date('Y-m-d H:i:s', time())
+                                        ), array(
+                                    'url' => $href,
+                                    'domain' => $key,
+                                ));
                             }
                         } else {
                             $db->insert("urlloc", array(
                                 'url' => $href,
                                 'loc' => $rule['score'],
                                 'ctime' => date('Y-m-d H:i:s', time()),
+                                'domain' => $key,
                             ));
                         }
 
