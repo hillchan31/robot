@@ -21,7 +21,7 @@ class SeverityConf {
         array(
             'url' => 'http://news.163.com/mobile',
             'baseurl' => 'http://news.163.com/mobile',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -45,7 +45,7 @@ class SeverityConf {
         array(
             'url' => 'http://3g.163.com/touch',
             'baseurl' => 'http://3g.163.com/touch',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -63,11 +63,12 @@ class SeverityConf {
         array(
             'url' => 'http://3g.ifeng.com',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 1,
+            'run' => 0,
+            'reg' => '/(&|\?)?mid=[A-Za-z0-9]*&vt=2|(&|\?)?vt=2&mid=[A-Za-z0-9]*/',
             'rules' =>
             array(
                 array(
-                    'cssSelector' => '.listcb',
+                    'cssSelector' => '.nlistcb > .listcb',
                     'atagInclude' => 'li',
                     'score' => '10',
                     'commentTag' => '',
@@ -82,10 +83,11 @@ class SeverityConf {
             'url' => 'http://3g.ifeng.com/news/newsi',
             'baseurl' => 'http://3g.ifeng.com',
             'run' => 1,
+            'reg' => '/(&|\?)?mid=[a-zA-Z0-9]*/',
             'rules' =>
             array(
                 array(
-                    'cssSelector' => '.listcb',
+                    'cssSelector' => '.nlistcb > .listcb',
                     'atagInclude' => 'li',
                     'score' => '10',
                     'commentTag' => '',
@@ -99,7 +101,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/0/index_3.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -141,7 +143,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/52/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -177,7 +179,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.sohu.com/?v=2',
             'baseurl' => 'http://m.sohu.com',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -213,7 +215,7 @@ class SeverityConf {
         array(
             'url' => 'http://xw.qq.com/simple/s/index',
             'baseurl' => 'http://xw.qq.com',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -244,7 +246,8 @@ class SeverityConf {
         array(
             'url' => 'http://i.ifeng.com/ent/enti',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 1,
+            'run' => 0,
+            'reg' => '/[&|\?]?mid=[A-Za-z0-9]*/',
             'rules' =>
             array(
                 array(
@@ -262,7 +265,8 @@ class SeverityConf {
         array(
             'url' => 'http://i.ifeng.com/mil/mili',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 1,
+            'run' => 0,
+            'reg' => '/(&|\?)?mid=[a-zA-Z0-9]*/',
             'rules' =>
             array(
                 array(
@@ -280,11 +284,12 @@ class SeverityConf {
         array(
             'url' => 'http://3g.ifeng.com/finance/financei',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 1,
+            'run' => 0,
+            'reg' => '/(&|\?)?mid=[a-zA-Z0-9]*/',
             'rules' =>
             array(
                 array(
-                    'cssSelector' => '.nlistcb',
+                    'cssSelector' => '.nlistcb > .listcb',
                     'atagInclude' => 'li',
                     'score' => '7',
                     'commentTag' => '',
@@ -298,7 +303,7 @@ class SeverityConf {
         array(
             'url' => 'http://i.ifeng.com/sports/sportsi',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -316,7 +321,7 @@ class SeverityConf {
         array(
             'url' => 'http://i.ifeng.com/news/society/shi',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -334,7 +339,7 @@ class SeverityConf {
         array(
             'url' => 'http://i.ifeng.com/tech/techi',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -352,7 +357,8 @@ class SeverityConf {
         array(
             'url' => 'http://i.ifeng.com/auto/autoi',
             'baseurl' => 'http://3g.ifeng.com',
-            'run' => 1,
+            'run' => 0,
+            'reg' => '/((&|\?)?vt=2)?(&|\?)?mid=[a-zA-Z0-9]*/',
             'rules' =>
             array(
                 array(
@@ -370,7 +376,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/32/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -400,7 +406,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/645/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -436,7 +442,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/30/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -466,7 +472,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/30/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -496,7 +502,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/28/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -532,7 +538,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/24/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -568,7 +574,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/35/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -604,7 +610,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.people.cn/26/index.html',
             'baseurl' => 'http://m.people.cn',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -640,7 +646,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.sohu.com/c/2/',
             'baseurl' => 'http://m.sohu.com',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -670,7 +676,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.sohu.com/c/53/',
             'baseurl' => 'http://m.sohu.com',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -694,7 +700,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.sohu.com/c/8/',
             'baseurl' => 'http://m.sohu.com',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -718,7 +724,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.sohu.com/c/3/',
             'baseurl' => 'http://m.sohu.com',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -742,7 +748,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.sohu.com/c/4/',
             'baseurl' => 'http://m.sohu.com',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -772,7 +778,7 @@ class SeverityConf {
         array(
             'url' => 'http://m.sohu.com/c/5/',
             'baseurl' => 'http://m.sohu.com',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -802,7 +808,7 @@ class SeverityConf {
         array(
             'url' => 'http://3g.163.com/touch/ent',
             'baseurl' => 'http://3g.163.com/touch/ent',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -826,7 +832,7 @@ class SeverityConf {
         array(
             'url' => 'http://3g.163.com/touch/sports/',
             'baseurl' => 'http://3g.163.com/touch/sports',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -850,7 +856,7 @@ class SeverityConf {
         array(
             'url' => 'http://3g.163.com/touch/mil',
             'baseurl' => 'http://3g.163.com/touch/mil',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -874,7 +880,7 @@ class SeverityConf {
         array(
             'url' => 'http://3g.163.com/touch/tech/',
             'baseurl' => 'http://3g.163.com/touch/tech',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -898,7 +904,7 @@ class SeverityConf {
         array(
             'url' => 'http://3g.163.com/touch/money/',
             'baseurl' => 'http://3g.163.com/touch/money',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -922,7 +928,7 @@ class SeverityConf {
         array(
             'url' => 'http://xw.qq.com/m/finance/',
             'baseurl' => 'http://xw.qq.com',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -940,7 +946,7 @@ class SeverityConf {
         array(
             'url' => 'http://xw.qq.com/m/sports/',
             'baseurl' => 'http://xw.qq.com',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -958,7 +964,7 @@ class SeverityConf {
         array(
             'url' => 'http://xw.qq.com/m/ent/',
             'baseurl' => 'http://xw.qq.com',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(
@@ -976,7 +982,7 @@ class SeverityConf {
         array(
             'url' => 'http://xw.qq.com/m/tech/',
             'baseurl' => 'http://xw.qq.com',
-            'run' => 1,
+            'run' => 0,
             'rules' =>
             array(
                 array(

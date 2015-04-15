@@ -16,7 +16,7 @@ class medoo {
     protected $charset = 'utf8';
     protected $database_name = 'crawl';
     // For MySQL, MariaDB, MSSQL, Sybase, PostgreSQL, Oracle
-    protected $server = '10.210.230.52';
+    protected $server = 'localhost';
     protected $username = 'root';
     protected $password = '';
     // For SQLite

@@ -11,6 +11,7 @@ ini_set('date.timezone', 'Asia/Shanghai');
 function main() {
     $t1 = microtime(true);
     $info = 0;
+    $tcurl = 'http://i.tc.service.weibo.com/tc/tc.php?force_new=0&u=';
 
     $total = 0;
     foreach (SeverityConf::$pages as $key => $value) {
@@ -62,7 +63,7 @@ function main() {
                         $total++;
                         $saveString = '';
 //                echo iconv('gbk', 'UTF-8', $atag) . "\n";
-//                    echo $atag . "\n";
+//                        echo $atag . "\n";
 
                         /**
                          * 取url
@@ -73,6 +74,11 @@ function main() {
                             $href = $value['baseurl'] . $href;
                         }
                         $href = html_entity_decode($href);
+
+                        if (!empty($value['reg'])) {
+                            $href = preg_replace($value['reg'], "", $href);
+                        }
+
                         $saveString.= $href;
 //                    echo iconv('gbk', 'UTF-8', return_between($atag, '>', '<', EXCL)) . "\n";
 
