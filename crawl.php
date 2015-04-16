@@ -25,11 +25,6 @@ function main() {
             }
 //        phpQuery::$debug = TRUE;
             $pq = phpQuery::newDocumentFile($value['url']);
-//        var_dump($pq);
-//        echo $pq->html();
-//        $res = http_get($value['url'], "");
-//        var_dump($res['FILE']);
-//        $pq = phpQuery::newDocumentXHTML(tidy($res['FILE']));
 
             foreach ($value['rules'] as $rule) {
                 /**
@@ -62,8 +57,6 @@ function main() {
                         $num++;
                         $total++;
                         $saveString = '';
-//                echo iconv('gbk', 'UTF-8', $atag) . "\n";
-//                        echo $atag . "\n";
 
                         /**
                          * 取url
@@ -84,7 +77,6 @@ function main() {
                         }
 
                         $saveString.= $href;
-//                    echo iconv('gbk', 'UTF-8', return_between($atag, '>', '<', EXCL)) . "\n";
 
                         /**
                          * 打分数
