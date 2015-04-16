@@ -76,7 +76,11 @@ function main() {
                         $href = html_entity_decode($href);
 
                         if (!empty($value['reg'])) {
-                            $href = preg_replace($value['reg'], "", $href);
+                            if (!empty($value['replace'])) {
+                                $href = preg_replace($value['reg'], $value['replace'], $href);
+                            } else {
+                                $href = preg_replace($value['reg'], "", $href);
+                            }
                         }
 
                         $saveString.= $href;
